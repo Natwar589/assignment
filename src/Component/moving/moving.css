@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    overflow: hidden;
+    gap: 40px;
+}
+
+.container img {
+    width: 120px;
+}
+
+.image {
+    animation: scroll 20s linear infinite;
+    margin-right: 20px;
+    /* Adjust spacing between images */
+}
+
+.paused .image {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% * 24));
+        /* 24 images in the array, adjust accordingly */
+    }
+}

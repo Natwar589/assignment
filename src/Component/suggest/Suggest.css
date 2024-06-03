@@ -1,0 +1,19 @@
+.suggest img {
+    transition: 0.3s;
+    animation: fadeIn 2s;
+}
+.read-button{
+        border: 2px solid purple;
+       
+        border-radius: 9999px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

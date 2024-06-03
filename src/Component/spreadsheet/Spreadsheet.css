@@ -1,0 +1,21 @@
+.sheet p{
+    transition: 0.3s;
+        animation: fadeIn 2s;
+}
+.sheet hr{
+    transition: 0.3s;
+        animation: fadeIn 2s;
+}
+.sheet button {
+    transition: 0.3s;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
