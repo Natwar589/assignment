@@ -13,7 +13,7 @@ function Spreadsheet() {
 
   useEffect(() => {
     if (transitioning) {
-      const timer = setTimeout(() => setTransitioning(false), 500); // Duration of the transition
+      const timer = setTimeout(() => setTransitioning(false), 160); // Duration of the transition
       return () => clearTimeout(timer);
     }
   }, [transitioning]);

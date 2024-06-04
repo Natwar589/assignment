@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import pitalsideimage from "/public/pitalsideimage.webp";
+import pitalsideimage from "/pitalsideimage.webp";
 import ptal from "/ptal.svg";
 import samosabucket from "/samosabucket.webp";
 import samosaparty from "/moving/somosaparty.svg";
@@ -26,7 +26,7 @@ function Suggest() {
   }, [isTransitioning]);
 
   return (
-    <div className="grid grid-cols-[1.3fr,0.7fr] bg-white p-[40px] gap-[30px]">
+    <div className="grid grid-cols-[1.3fr,0.7fr] bg-white p-[40px] ml-[50px] gap-[30px]">
       <div>
         <h2
           className={`text-[18px] mb-4 text-gray-600 transition-opacity duration-500 ease-in-out ${

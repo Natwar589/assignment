@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Component/Navbar";
-import background from "/heromain.svg";
+
 import Hero from "./Component/Hero";
 import KeyProblem from "./Component/KeyProblem";
 import Moving from "./Component/moving/moving";
@@ -9,24 +9,22 @@ import Spreadsheet from "./Component/spreadsheet/Spreadsheet";
 import GetCrest from "./Component/getCreast/GetCrest";
 import Slider from "./Component/Slider/Slider";
 import Footer from "./Component/footer/Footer";
+
 function App() {
   return (
-    <div className=" w-svw h-svh ">
-      <div
-        className="w-full h-full bg-cover "
-        style={{ backgroundImage: `url(${background})` }}
-      >
-        <Navbar className="sticky" />
-        <Hero />
-      </div>
+    <div className="w-full min-h-screen relative  bg-cover">
+      <Navbar />
+      <Hero />
 
-      <KeyProblem />
-      <Moving />
-      <Suggest />
-      <Spreadsheet />
-      <GetCrest />
-      <Slider />
-      <Footer />
+      <div className="bg-white">
+        <KeyProblem />
+        <Moving />
+        <Suggest />
+        <Spreadsheet />
+        <GetCrest />
+        <Slider />
+        <Footer />
+      </div>
     </div>
   );
 }
