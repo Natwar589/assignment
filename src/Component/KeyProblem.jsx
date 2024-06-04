@@ -1,8 +1,8 @@
 import React from "react";
-import home from "../../public/keyhome.svg";
-import stock from "../../public/stock.svg";
-import cart from "../../public/cart.svg";
-import checklist from "../../public/checklist.svg";
+import home from "/keyhome.svg";
+import stock from "/stock.svg";
+import cart from "/cart.svg";
+import checklist from "/checklist.svg";
 const KeyProblem = () => (
   <div className="pt-[10px] mx-[30px] mt-[120px]">
     <h1 className="text-[40px] font-bold mb-8 text-center">

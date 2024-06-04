@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Component/Navbar";
-import background from "../public/heromain.svg";
+import background from "/heromain.svg";
 import Hero from "./Component/Hero";
 import KeyProblem from "./Component/KeyProblem";
 import Moving from "./Component/moving/moving";
@@ -16,7 +16,7 @@ function App() {
         className="w-full h-full bg-cover "
         style={{ backgroundImage: `url(${background})` }}
       >
-        <Navbar />
+        <Navbar className="sticky" />
         <Hero />
       </div>
 

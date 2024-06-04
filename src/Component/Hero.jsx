@@ -1,6 +1,6 @@
 import React from "react";
-import heroimg from "../../public/main.svg";
-import herotext from "../../public/herotext.svg";
+import heroimg from "/main.svg";
+import herotext from "/herotext.svg";
 
 const Hero = () => {
   return (
